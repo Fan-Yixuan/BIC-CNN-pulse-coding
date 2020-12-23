@@ -1,0 +1,38 @@
+2020-12-22 20:49:23: INFO: Config
+DIR:
+  DATA: ./
+  RESULT: ./result
+MODE: random
+MODEL:
+  DECAY: 0.7
+  LEN: 0.5
+  TH: 0.3
+  WINDOW: 32
+NAME: random
+SEED: 0
+TEST:
+  BS: 1000
+TRAIN:
+  BS: 64
+  EPOCHS: 30
+  LR: 0.005
+  ONE_INIT: False
+2020-12-22 20:49:26: INFO: SNN start training.
+2020-12-22 20:56:33: INFO: Epoch 1/30  Loss: 2.35130  Train acc: 9.278
+2020-12-22 20:57:03: INFO: Test Acc: 10.09
+2020-12-22 21:04:13: INFO: Epoch 2/30  Loss: 2.32384  Train acc: 10.671
+2020-12-22 21:04:43: INFO: Test Acc: 11.35
+2020-12-22 21:11:53: INFO: Epoch 3/30  Loss: 2.34876  Train acc: 11.239
+2020-12-22 21:12:23: INFO: Test Acc: 11.35
+2020-12-22 21:19:33: INFO: Epoch 4/30  Loss: 2.34877  Train acc: 11.238
+2020-12-22 21:20:03: INFO: Test Acc: 11.35
+2020-12-22 21:27:13: INFO: Epoch 5/30  Loss: 2.34881  Train acc: 11.234
+2020-12-22 21:27:43: INFO: Test Acc: 11.35
+2020-12-22 21:34:53: INFO: Epoch 6/30  Loss: 2.34881  Train acc: 11.234
+2020-12-22 21:35:23: INFO: Test Acc: 11.35
+2020-12-22 21:42:31: INFO: Epoch 7/30  Loss: 2.34877  Train acc: 11.238
+2020-12-22 21:43:01: INFO: Test Acc: 11.35
+2020-12-22 21:50:11: INFO: Epoch 8/30  Loss: 2.34877  Train acc: 11.238
+2020-12-22 21:50:42: INFO: Test Acc: 11.35
+2020-12-22 21:57:49: INFO: Epoch 9/30  Loss: 2.34877  Train acc: 11.238
+2020-12-22 21:58:19: INFO: Test Acc: 11.35

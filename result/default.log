@@ -1,0 +1,719 @@
+2020-12-21 17:18:55: INFO: Config
+DIR:
+  DATA: ./
+  RESULT: ./result
+MODE: conv
+MODEL:
+  DECAY: 0.7
+  LEN: 0.5
+  TH: 0.3
+  WINDOW: 3
+NAME: default
+SEED: 0
+TEST:
+  BS: 1000
+TRAIN:
+  BS: 300
+  EPOCHS: 70
+  LR: 0.005
+  ONE_INIT: False
+2020-12-21 17:19:12: INFO: Epoch 1/70  Loss: 0.90787  Train acc: 71.070
+2020-12-21 17:19:12: INFO: Parameter containing:
+tensor([[[[-1.2296]]],
+
+
+        [[[ 0.9640]]],
+
+
+        [[[-1.2289]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:19:13: INFO: Test Acc: 89.91
+2020-12-21 17:19:27: INFO: Epoch 2/70  Loss: 0.30554  Train acc: 90.957
+2020-12-21 17:19:27: INFO: Parameter containing:
+tensor([[[[-1.5022]]],
+
+
+        [[[ 1.2499]]],
+
+
+        [[[-1.5020]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:19:28: INFO: Test Acc: 93.80
+2020-12-21 17:19:42: INFO: Epoch 3/70  Loss: 0.22692  Train acc: 93.310
+2020-12-21 17:19:42: INFO: Parameter containing:
+tensor([[[[-1.6671]]],
+
+
+        [[[ 1.4256]]],
+
+
+        [[[-1.6676]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:19:43: INFO: Test Acc: 93.86
+2020-12-21 17:19:58: INFO: Epoch 4/70  Loss: 0.19585  Train acc: 94.162
+2020-12-21 17:19:58: INFO: Parameter containing:
+tensor([[[[-1.7798]]],
+
+
+        [[[ 1.5493]]],
+
+
+        [[[-1.7802]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:19:59: INFO: Test Acc: 95.30
+2020-12-21 17:20:14: INFO: Epoch 5/70  Loss: 0.17518  Train acc: 94.908
+2020-12-21 17:20:14: INFO: Parameter containing:
+tensor([[[[-1.8757]]],
+
+
+        [[[ 1.6539]]],
+
+
+        [[[-1.8766]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:20:15: INFO: Test Acc: 94.11
+2020-12-21 17:20:29: INFO: Epoch 6/70  Loss: 0.16483  Train acc: 95.058
+2020-12-21 17:20:29: INFO: Parameter containing:
+tensor([[[[-1.9446]]],
+
+
+        [[[ 1.7295]]],
+
+
+        [[[-1.9451]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:20:30: INFO: Test Acc: 95.75
+2020-12-21 17:20:45: INFO: Epoch 7/70  Loss: 0.14980  Train acc: 95.548
+2020-12-21 17:20:45: INFO: Parameter containing:
+tensor([[[[-2.0182]]],
+
+
+        [[[ 1.8105]]],
+
+
+        [[[-2.0179]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:20:46: INFO: Test Acc: 95.96
+2020-12-21 17:21:03: INFO: Epoch 8/70  Loss: 0.13771  Train acc: 95.913
+2020-12-21 17:21:03: INFO: Parameter containing:
+tensor([[[[-2.0877]]],
+
+
+        [[[ 1.8881]]],
+
+
+        [[[-2.0882]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:21:04: INFO: Test Acc: 96.12
+2020-12-21 17:21:21: INFO: Epoch 9/70  Loss: 0.13661  Train acc: 95.867
+2020-12-21 17:21:21: INFO: Parameter containing:
+tensor([[[[-2.1277]]],
+
+
+        [[[ 1.9352]]],
+
+
+        [[[-2.1279]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:21:22: INFO: Test Acc: 96.17
+2020-12-21 17:21:38: INFO: Epoch 10/70  Loss: 0.12913  Train acc: 96.147
+2020-12-21 17:21:38: INFO: Parameter containing:
+tensor([[[[-2.1736]]],
+
+
+        [[[ 1.9886]]],
+
+
+        [[[-2.1744]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:21:39: INFO: Test Acc: 96.36
+2020-12-21 17:21:56: INFO: Epoch 11/70  Loss: 0.10772  Train acc: 96.760
+2020-12-21 17:21:56: INFO: Parameter containing:
+tensor([[[[-2.1864]]],
+
+
+        [[[ 2.0024]]],
+
+
+        [[[-2.1873]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:21:58: INFO: Test Acc: 96.99
+2020-12-21 17:22:15: INFO: Epoch 12/70  Loss: 0.10600  Train acc: 96.800
+2020-12-21 17:22:15: INFO: Parameter containing:
+tensor([[[[-2.2011]]],
+
+
+        [[[ 2.0185]]],
+
+
+        [[[-2.2024]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:22:16: INFO: Test Acc: 96.80
+2020-12-21 17:22:33: INFO: Epoch 13/70  Loss: 0.10529  Train acc: 96.780
+2020-12-21 17:22:33: INFO: Parameter containing:
+tensor([[[[-2.2156]]],
+
+
+        [[[ 2.0343]]],
+
+
+        [[[-2.2168]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:22:34: INFO: Test Acc: 96.86
+2020-12-21 17:22:53: INFO: Epoch 14/70  Loss: 0.10398  Train acc: 96.843
+2020-12-21 17:22:53: INFO: Parameter containing:
+tensor([[[[-2.2320]]],
+
+
+        [[[ 2.0527]]],
+
+
+        [[[-2.2337]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:22:54: INFO: Test Acc: 96.80
+2020-12-21 17:23:11: INFO: Epoch 15/70  Loss: 0.10393  Train acc: 96.913
+2020-12-21 17:23:11: INFO: Parameter containing:
+tensor([[[[-2.2477]]],
+
+
+        [[[ 2.0699]]],
+
+
+        [[[-2.2494]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:23:12: INFO: Test Acc: 96.89
+2020-12-21 17:23:29: INFO: Epoch 16/70  Loss: 0.10240  Train acc: 96.875
+2020-12-21 17:23:29: INFO: Parameter containing:
+tensor([[[[-2.2647]]],
+
+
+        [[[ 2.0885]]],
+
+
+        [[[-2.2666]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:23:30: INFO: Test Acc: 96.72
+2020-12-21 17:23:48: INFO: Epoch 17/70  Loss: 0.10120  Train acc: 97.022
+2020-12-21 17:23:48: INFO: Parameter containing:
+tensor([[[[-2.2833]]],
+
+
+        [[[ 2.1089]]],
+
+
+        [[[-2.2856]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:23:49: INFO: Test Acc: 96.67
+2020-12-21 17:24:08: INFO: Epoch 18/70  Loss: 0.10014  Train acc: 96.968
+2020-12-21 17:24:08: INFO: Parameter containing:
+tensor([[[[-2.3021]]],
+
+
+        [[[ 2.1294]]],
+
+
+        [[[-2.3040]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:24:10: INFO: Test Acc: 96.97
+2020-12-21 17:24:28: INFO: Epoch 19/70  Loss: 0.10139  Train acc: 96.863
+2020-12-21 17:24:28: INFO: Parameter containing:
+tensor([[[[-2.3197]]],
+
+
+        [[[ 2.1494]]],
+
+
+        [[[-2.3220]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:24:29: INFO: Test Acc: 97.07
+2020-12-21 17:24:47: INFO: Epoch 20/70  Loss: 0.10094  Train acc: 96.940
+2020-12-21 17:24:47: INFO: Parameter containing:
+tensor([[[[-2.3357]]],
+
+
+        [[[ 2.1672]]],
+
+
+        [[[-2.3383]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:24:49: INFO: Test Acc: 97.04
+2020-12-21 17:25:07: INFO: Epoch 21/70  Loss: 0.09770  Train acc: 97.052
+2020-12-21 17:25:07: INFO: Parameter containing:
+tensor([[[[-2.3560]]],
+
+
+        [[[ 2.1898]]],
+
+
+        [[[-2.3586]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:25:08: INFO: Test Acc: 97.26
+2020-12-21 17:25:25: INFO: Epoch 22/70  Loss: 0.09892  Train acc: 97.035
+2020-12-21 17:25:25: INFO: Parameter containing:
+tensor([[[[-2.3736]]],
+
+
+        [[[ 2.2098]]],
+
+
+        [[[-2.3764]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:25:27: INFO: Test Acc: 97.02
+2020-12-21 17:25:45: INFO: Epoch 23/70  Loss: 0.09833  Train acc: 97.005
+2020-12-21 17:25:45: INFO: Parameter containing:
+tensor([[[[-2.3928]]],
+
+
+        [[[ 2.2311]]],
+
+
+        [[[-2.3960]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:25:46: INFO: Test Acc: 96.79
+2020-12-21 17:26:04: INFO: Epoch 24/70  Loss: 0.09783  Train acc: 97.048
+2020-12-21 17:26:04: INFO: Parameter containing:
+tensor([[[[-2.4100]]],
+
+
+        [[[ 2.2505]]],
+
+
+        [[[-2.4130]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:26:05: INFO: Test Acc: 96.91
+2020-12-21 17:26:24: INFO: Epoch 25/70  Loss: 0.09809  Train acc: 97.007
+2020-12-21 17:26:24: INFO: Parameter containing:
+tensor([[[[-2.4233]]],
+
+
+        [[[ 2.2662]]],
+
+
+        [[[-2.4265]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:26:25: INFO: Test Acc: 97.12
+2020-12-21 17:26:43: INFO: Epoch 26/70  Loss: 0.09695  Train acc: 97.003
+2020-12-21 17:26:43: INFO: Parameter containing:
+tensor([[[[-2.4420]]],
+
+
+        [[[ 2.2871]]],
+
+
+        [[[-2.4453]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:26:45: INFO: Test Acc: 96.87
+2020-12-21 17:27:03: INFO: Epoch 27/70  Loss: 0.09605  Train acc: 97.077
+2020-12-21 17:27:03: INFO: Parameter containing:
+tensor([[[[-2.4608]]],
+
+
+        [[[ 2.3084]]],
+
+
+        [[[-2.4646]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:27:04: INFO: Test Acc: 97.12
+2020-12-21 17:27:22: INFO: Epoch 28/70  Loss: 0.09437  Train acc: 97.157
+2020-12-21 17:27:22: INFO: Parameter containing:
+tensor([[[[-2.4808]]],
+
+
+        [[[ 2.3308]]],
+
+
+        [[[-2.4841]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:27:23: INFO: Test Acc: 96.83
+2020-12-21 17:27:41: INFO: Epoch 29/70  Loss: 0.09506  Train acc: 97.062
+2020-12-21 17:27:41: INFO: Parameter containing:
+tensor([[[[-2.4943]]],
+
+
+        [[[ 2.3469]]],
+
+
+        [[[-2.4977]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:27:42: INFO: Test Acc: 97.17
+2020-12-21 17:27:59: INFO: Epoch 30/70  Loss: 0.09303  Train acc: 97.205
+2020-12-21 17:27:59: INFO: Parameter containing:
+tensor([[[[-2.5148]]],
+
+
+        [[[ 2.3705]]],
+
+
+        [[[-2.5185]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:28:01: INFO: Test Acc: 97.09
+2020-12-21 17:28:18: INFO: Epoch 31/70  Loss: 0.09120  Train acc: 97.193
+2020-12-21 17:28:18: INFO: Parameter containing:
+tensor([[[[-2.5169]]],
+
+
+        [[[ 2.3725]]],
+
+
+        [[[-2.5206]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:28:19: INFO: Test Acc: 97.21
+2020-12-21 17:28:37: INFO: Epoch 32/70  Loss: 0.09144  Train acc: 97.188
+2020-12-21 17:28:37: INFO: Parameter containing:
+tensor([[[[-2.5188]]],
+
+
+        [[[ 2.3747]]],
+
+
+        [[[-2.5226]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:28:38: INFO: Test Acc: 97.20
+2020-12-21 17:28:57: INFO: Epoch 33/70  Loss: 0.09010  Train acc: 97.312
+2020-12-21 17:28:57: INFO: Parameter containing:
+tensor([[[[-2.5210]]],
+
+
+        [[[ 2.3772]]],
+
+
+        [[[-2.5249]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:28:58: INFO: Test Acc: 97.13
+2020-12-21 17:29:16: INFO: Epoch 34/70  Loss: 0.09104  Train acc: 97.260
+2020-12-21 17:29:16: INFO: Parameter containing:
+tensor([[[[-2.5229]]],
+
+
+        [[[ 2.3794]]],
+
+
+        [[[-2.5269]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:29:17: INFO: Test Acc: 97.22
+2020-12-21 17:29:36: INFO: Epoch 35/70  Loss: 0.09025  Train acc: 97.253
+2020-12-21 17:29:36: INFO: Parameter containing:
+tensor([[[[-2.5252]]],
+
+
+        [[[ 2.3821]]],
+
+
+        [[[-2.5294]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:29:37: INFO: Test Acc: 97.22
+2020-12-21 17:29:54: INFO: Epoch 36/70  Loss: 0.09284  Train acc: 97.205
+2020-12-21 17:29:54: INFO: Parameter containing:
+tensor([[[[-2.5271]]],
+
+
+        [[[ 2.3841]]],
+
+
+        [[[-2.5310]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:29:56: INFO: Test Acc: 96.97
+2020-12-21 17:30:13: INFO: Epoch 37/70  Loss: 0.09089  Train acc: 97.213
+2020-12-21 17:30:13: INFO: Parameter containing:
+tensor([[[[-2.5294]]],
+
+
+        [[[ 2.3868]]],
+
+
+        [[[-2.5335]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:30:14: INFO: Test Acc: 97.06
+2020-12-21 17:30:32: INFO: Epoch 38/70  Loss: 0.08999  Train acc: 97.243
+2020-12-21 17:30:32: INFO: Parameter containing:
+tensor([[[[-2.5315]]],
+
+
+        [[[ 2.3894]]],
+
+
+        [[[-2.5358]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:30:33: INFO: Test Acc: 97.15
+2020-12-21 17:30:50: INFO: Epoch 39/70  Loss: 0.08913  Train acc: 97.290
+2020-12-21 17:30:50: INFO: Parameter containing:
+tensor([[[[-2.5344]]],
+
+
+        [[[ 2.3927]]],
+
+
+        [[[-2.5388]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:30:51: INFO: Test Acc: 97.08
+2020-12-21 17:31:07: INFO: Epoch 40/70  Loss: 0.09056  Train acc: 97.183
+2020-12-21 17:31:07: INFO: Parameter containing:
+tensor([[[[-2.5372]]],
+
+
+        [[[ 2.3955]]],
+
+
+        [[[-2.5414]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:31:08: INFO: Test Acc: 97.15
+2020-12-21 17:31:25: INFO: Epoch 41/70  Loss: 0.09039  Train acc: 97.223
+2020-12-21 17:31:25: INFO: Parameter containing:
+tensor([[[[-2.5395]]],
+
+
+        [[[ 2.3983]]],
+
+
+        [[[-2.5439]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:31:26: INFO: Test Acc: 97.00
+2020-12-21 17:31:43: INFO: Epoch 42/70  Loss: 0.09002  Train acc: 97.225
+2020-12-21 17:31:43: INFO: Parameter containing:
+tensor([[[[-2.5418]]],
+
+
+        [[[ 2.4010]]],
+
+
+        [[[-2.5463]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:31:45: INFO: Test Acc: 97.14
+2020-12-21 17:32:03: INFO: Epoch 43/70  Loss: 0.08974  Train acc: 97.277
+2020-12-21 17:32:03: INFO: Parameter containing:
+tensor([[[[-2.5446]]],
+
+
+        [[[ 2.4042]]],
+
+
+        [[[-2.5491]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:32:04: INFO: Test Acc: 97.07
+2020-12-21 17:32:21: INFO: Epoch 44/70  Loss: 0.09030  Train acc: 97.198
+2020-12-21 17:32:21: INFO: Parameter containing:
+tensor([[[[-2.5469]]],
+
+
+        [[[ 2.4069]]],
+
+
+        [[[-2.5516]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:32:22: INFO: Test Acc: 97.16
+2020-12-21 17:32:39: INFO: Epoch 45/70  Loss: 0.08894  Train acc: 97.270
+2020-12-21 17:32:39: INFO: Parameter containing:
+tensor([[[[-2.5494]]],
+
+
+        [[[ 2.4096]]],
+
+
+        [[[-2.5541]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:32:40: INFO: Test Acc: 97.15
+2020-12-21 17:32:59: INFO: Epoch 46/70  Loss: 0.08879  Train acc: 97.250
+2020-12-21 17:32:59: INFO: Parameter containing:
+tensor([[[[-2.5521]]],
+
+
+        [[[ 2.4127]]],
+
+
+        [[[-2.5568]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:33:00: INFO: Test Acc: 97.13
+2020-12-21 17:33:18: INFO: Epoch 47/70  Loss: 0.08925  Train acc: 97.277
+2020-12-21 17:33:18: INFO: Parameter containing:
+tensor([[[[-2.5548]]],
+
+
+        [[[ 2.4156]]],
+
+
+        [[[-2.5595]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:33:19: INFO: Test Acc: 97.03
+2020-12-21 17:33:38: INFO: Epoch 48/70  Loss: 0.08990  Train acc: 97.223
+2020-12-21 17:33:38: INFO: Parameter containing:
+tensor([[[[-2.5570]]],
+
+
+        [[[ 2.4182]]],
+
+
+        [[[-2.5618]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:33:40: INFO: Test Acc: 96.96
+2020-12-21 17:33:58: INFO: Epoch 49/70  Loss: 0.08930  Train acc: 97.223
+2020-12-21 17:33:58: INFO: Parameter containing:
+tensor([[[[-2.5598]]],
+
+
+        [[[ 2.4212]]],
+
+
+        [[[-2.5646]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:33:59: INFO: Test Acc: 97.14
+2020-12-21 17:34:17: INFO: Epoch 50/70  Loss: 0.08837  Train acc: 97.312
+2020-12-21 17:34:17: INFO: Parameter containing:
+tensor([[[[-2.5624]]],
+
+
+        [[[ 2.4242]]],
+
+
+        [[[-2.5673]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:34:18: INFO: Test Acc: 96.82
+2020-12-21 17:34:37: INFO: Epoch 51/70  Loss: 0.08882  Train acc: 97.278
+2020-12-21 17:34:37: INFO: Parameter containing:
+tensor([[[[-2.5626]]],
+
+
+        [[[ 2.4245]]],
+
+
+        [[[-2.5675]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:34:38: INFO: Test Acc: 97.29
+2020-12-21 17:34:56: INFO: Epoch 52/70  Loss: 0.08839  Train acc: 97.355
+2020-12-21 17:34:56: INFO: Parameter containing:
+tensor([[[[-2.5629]]],
+
+
+        [[[ 2.4248]]],
+
+
+        [[[-2.5678]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:34:57: INFO: Test Acc: 97.18
+2020-12-21 17:35:16: INFO: Epoch 53/70  Loss: 0.08920  Train acc: 97.308
+2020-12-21 17:35:16: INFO: Parameter containing:
+tensor([[[[-2.5632]]],
+
+
+        [[[ 2.4251]]],
+
+
+        [[[-2.5680]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:35:17: INFO: Test Acc: 97.23
+2020-12-21 17:35:35: INFO: Epoch 54/70  Loss: 0.08792  Train acc: 97.252
+2020-12-21 17:35:35: INFO: Parameter containing:
+tensor([[[[-2.5635]]],
+
+
+        [[[ 2.4254]]],
+
+
+        [[[-2.5683]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:35:36: INFO: Test Acc: 97.13
+2020-12-21 17:35:53: INFO: Epoch 55/70  Loss: 0.08875  Train acc: 97.330
+2020-12-21 17:35:53: INFO: Parameter containing:
+tensor([[[[-2.5637]]],
+
+
+        [[[ 2.4257]]],
+
+
+        [[[-2.5686]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:35:55: INFO: Test Acc: 97.33
+2020-12-21 17:36:13: INFO: Epoch 56/70  Loss: 0.08898  Train acc: 97.280
+2020-12-21 17:36:13: INFO: Parameter containing:
+tensor([[[[-2.5639]]],
+
+
+        [[[ 2.4259]]],
+
+
+        [[[-2.5688]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:36:15: INFO: Test Acc: 97.35
+2020-12-21 17:36:32: INFO: Epoch 57/70  Loss: 0.08913  Train acc: 97.320
+2020-12-21 17:36:32: INFO: Parameter containing:
+tensor([[[[-2.5642]]],
+
+
+        [[[ 2.4262]]],
+
+
+        [[[-2.5690]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:36:33: INFO: Test Acc: 97.22
+2020-12-21 17:36:53: INFO: Epoch 58/70  Loss: 0.08775  Train acc: 97.300
+2020-12-21 17:36:53: INFO: Parameter containing:
+tensor([[[[-2.5645]]],
+
+
+        [[[ 2.4265]]],
+
+
+        [[[-2.5693]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:36:54: INFO: Test Acc: 97.15
+2020-12-21 17:37:12: INFO: Epoch 59/70  Loss: 0.08957  Train acc: 97.262
+2020-12-21 17:37:12: INFO: Parameter containing:
+tensor([[[[-2.5647]]],
+
+
+        [[[ 2.4268]]],
+
+
+        [[[-2.5696]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:37:14: INFO: Test Acc: 96.89
+2020-12-21 17:37:32: INFO: Epoch 60/70  Loss: 0.08742  Train acc: 97.357
+2020-12-21 17:37:32: INFO: Parameter containing:
+tensor([[[[-2.5651]]],
+
+
+        [[[ 2.4272]]],
+
+
+        [[[-2.5699]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:37:33: INFO: Test Acc: 97.05
+2020-12-21 17:37:52: INFO: Epoch 61/70  Loss: 0.08787  Train acc: 97.393
+2020-12-21 17:37:52: INFO: Parameter containing:
+tensor([[[[-2.5653]]],
+
+
+        [[[ 2.4275]]],
+
+
+        [[[-2.5702]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:37:54: INFO: Test Acc: 97.12
+2020-12-21 17:38:13: INFO: Epoch 62/70  Loss: 0.08889  Train acc: 97.345
+2020-12-21 17:38:13: INFO: Parameter containing:
+tensor([[[[-2.5656]]],
+
+
+        [[[ 2.4277]]],
+
+
+        [[[-2.5704]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:38:14: INFO: Test Acc: 97.06
+2020-12-21 17:38:32: INFO: Epoch 63/70  Loss: 0.08963  Train acc: 97.307
+2020-12-21 17:38:32: INFO: Parameter containing:
+tensor([[[[-2.5658]]],
+
+
+        [[[ 2.4280]]],
+
+
+        [[[-2.5707]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:38:33: INFO: Test Acc: 97.28
+2020-12-21 17:38:52: INFO: Epoch 64/70  Loss: 0.08799  Train acc: 97.382
+2020-12-21 17:38:52: INFO: Parameter containing:
+tensor([[[[-2.5661]]],
+
+
+        [[[ 2.4283]]],
+
+
+        [[[-2.5709]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:38:54: INFO: Test Acc: 97.00
+2020-12-21 17:39:11: INFO: Epoch 65/70  Loss: 0.08767  Train acc: 97.342
+2020-12-21 17:39:11: INFO: Parameter containing:
+tensor([[[[-2.5664]]],
+
+
+        [[[ 2.4286]]],
+
+
+        [[[-2.5712]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:39:12: INFO: Test Acc: 97.15
+2020-12-21 17:39:29: INFO: Epoch 66/70  Loss: 0.08824  Train acc: 97.372
+2020-12-21 17:39:29: INFO: Parameter containing:
+tensor([[[[-2.5666]]],
+
+
+        [[[ 2.4289]]],
+
+
+        [[[-2.5715]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:39:31: INFO: Test Acc: 97.18
+2020-12-21 17:39:49: INFO: Epoch 67/70  Loss: 0.08890  Train acc: 97.273
+2020-12-21 17:39:49: INFO: Parameter containing:
+tensor([[[[-2.5669]]],
+
+
+        [[[ 2.4292]]],
+
+
+        [[[-2.5718]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:39:50: INFO: Test Acc: 97.14
+2020-12-21 17:40:09: INFO: Epoch 68/70  Loss: 0.08942  Train acc: 97.212
+2020-12-21 17:40:09: INFO: Parameter containing:
+tensor([[[[-2.5671]]],
+
+
+        [[[ 2.4295]]],
+
+
+        [[[-2.5720]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:40:10: INFO: Test Acc: 97.15
+2020-12-21 17:40:28: INFO: Epoch 69/70  Loss: 0.08881  Train acc: 97.323
+2020-12-21 17:40:28: INFO: Parameter containing:
+tensor([[[[-2.5674]]],
+
+
+        [[[ 2.4298]]],
+
+
+        [[[-2.5723]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:40:29: INFO: Test Acc: 97.19
+2020-12-21 17:40:48: INFO: Epoch 70/70  Loss: 0.08971  Train acc: 97.190
+2020-12-21 17:40:48: INFO: Parameter containing:
+tensor([[[[-2.5676]]],
+
+
+        [[[ 2.4300]]],
+
+
+        [[[-2.5725]]]], device='cuda:0', requires_grad=True)
+2020-12-21 17:40:49: INFO: Test Acc: 97.25
